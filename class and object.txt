@@ -3,26 +3,7 @@ Instance vaiable
 Note: value object to object change ---> instance variable
 
 
-where we can declare 
 
-1.inside constructor ---> by using self 
-
-2.inside instance method by using self
-class Test:
-    def __init__(self,name,duration,content):
-        self.name=name
-        self.duration =duration
-        self.content = content
-    def cal(self):
-        print(self.name)
-        print(self.duration)
-        print(self.content)
-    def test1(self,a,b):
-        self.temp = "This is instance variable"
-        self.a=a
-        self.b=b
-        print(self.temp)
-        print(self.a+self.b)
 
 t1 = Test('python',56,'Adv')
 t1.cal()
