@@ -1,0 +1,14 @@
+git status
+
+
+for adding single file
+git add filename
+
+
+
+git add filename1 filename2 filenamen
+
+All files
+git add .  
+
+
